@@ -6,7 +6,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { Input } from '../components/Form/Input';
 
 type SignInFormData = {
-  email: string
+  email: string;
   password: string;
 };
 
